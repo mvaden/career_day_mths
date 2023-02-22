@@ -57,7 +57,6 @@ export default function Home() {
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-          <small>Product of Matthew Vaden</small>
         </a>
       </footer>
 
