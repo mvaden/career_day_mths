@@ -4,7 +4,7 @@ import styles from '../styles/SubTopic.module.css';
 const Jobs = () => {
    return (
       <div>
-         <h2 className="h2">Jobs amd Compensation</h2>
+         <h2 className={styles.h2}>Jobs amd Compensation</h2>
          <p>One of the more positive reasons to consider a career in technology are in the growing number of employment opportunities will will be in the job market for years to come. For jobs involving computer and information technology occupations, the 
             <a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm">
                Bureau of Labor Statisitics
