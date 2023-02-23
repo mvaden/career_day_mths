@@ -14,7 +14,7 @@ import styles from '../styles/Home.module.css';
 function NavLinks() {
    return (
       <nav className={styles.topics}>
-         <ul>
+         <ul className={styles.ul}>
             <li className={styles.li}>
                <Link href="/">
                   Home

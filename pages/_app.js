@@ -1,6 +1,6 @@
 import Layout from "../components/layout"
 import NavLinks from "../components/NavLinks"
-import styles from '../styles/SubTopic.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function MyApp({ Component, pageProps }) {
    return (
