@@ -33,6 +33,27 @@
   text-align: center;
 }
 
+.topics {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 300px;
+  border-right: 1px solid rgba(0,0,0.5);
+  overflow-y: auto;
+  height: 100%;
+  background-color: #ffffff;
+  margin-top: 16px;
+}
+
+.subTopics {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 300px;
+  overflow-y: auto;
+}
 
 .description {
   line-height: 1.5;
@@ -81,6 +102,11 @@
 
 .logo {
   height: 1em;
+}
+
+.li {
+  list-style: none;
+  padding: 14px 0;
 }
 
 @media (max-width: 600px) {
