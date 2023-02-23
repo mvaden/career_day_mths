@@ -30,11 +30,11 @@ function NavLinks() {
                   Types Of Applications
                </Link>
             </li>
-            <li className={styles.li}>
+            {/* <li className={styles.li}>
                <Link href="/purpose">
                   Importance of Software
                </Link>
-            </li>
+            </li> */}
             <li className={styles.li}>
                <Link href="/hard-skills">
                   Hard Skills

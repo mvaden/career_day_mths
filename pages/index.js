@@ -10,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <div>
-        Index
+        <h1>Information for Aspiring Technology Professionals</h1>
+        <p>If you are reading this as a student in high school or college and are curious about having a career in technology as an engineer or a similar occupation, than you have come to the right place! Feel free to use the navigation bar (to the left) to read though the various topics with information that you will hopefully find helpful in your learning journey. Be advised that this information is updated regularly (check back often).</p>
+        <p>Happy Learning!</p>
       </div>
 
       <style jsx>{`
