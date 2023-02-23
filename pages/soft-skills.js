@@ -18,6 +18,7 @@ const SoftSkills = () => {
             <li>Excellent written grammar</li>
             <li>Critical thinking skills</li>
             <li>Being proactive about learning new things</li>
+            <li>Dressing for success</li>
             <li>A general sense of self-awareness</li>
          </ul>
       </div>
