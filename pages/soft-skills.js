@@ -4,7 +4,7 @@ import styles from '../styles/SubTopic.module.css';
 const SoftSkills = () => {
    return (
       <div>
-         <h2>
+         <h2 className="h2">
             Soft Skills
          </h2>
          <p>Just like hard skills, soft skills are also crucial to have in order to enjoy success when having a career in technology. You'll of tne find that some of your most senior peers and managers are people who have honed their own set of soft skills over time to where they are masters at communicating, learning new things, and being able to deliver great results. Many will argue that having great soft skills are among the most important to have no matter what career or endavor you are after in life.</p>

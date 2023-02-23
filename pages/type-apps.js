@@ -4,6 +4,7 @@ import styles from '../styles/SubTopic.module.css';
 const TypeApps = () => {
    return (
       <div>
+         <h2 className="h2">What Are Applications?</h2>
          <p>
             An application, or app, in the world technology, is another broad terms that refers to a computer program designed to carry out a sepcific task or set of tasks that have little or nothing to do with the operation of the computer itself. In essence, these are programs that we create for the purpose of performing one or more services for us. Those services could range from using a 
             <a href='https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API'>
