@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../styles/SubTopic.module.css';
 
 const HardSkills = () => {
    return (
