@@ -26,12 +26,11 @@ const TypeApps = () => {
             <li>Home Appliances</li>
             <li>Aircraft Carriers and Submarines</li>
             <li>Commercial or Industrial Aircraft</li>
-            <li>Anything that operates on a 
+            <li>Anything that operates on a{" "}
                <a href="https://electronics.howstuffworks.com/diode.htm">
                   semi-conductor 
                </a>
             or "chip" will serve to operate software applications</li>
-            <li></li>
          </ul>
       </div>
    )
