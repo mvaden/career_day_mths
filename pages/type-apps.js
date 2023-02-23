@@ -29,7 +29,7 @@ const TypeApps = () => {
             <li>Anything that operates on a{" "}
                <a href="https://electronics.howstuffworks.com/diode.htm">
                   semi-conductor 
-               </a>
+               </a>{" "}
             or "chip" will serve to operate software applications</li>
          </ul>
       </div>

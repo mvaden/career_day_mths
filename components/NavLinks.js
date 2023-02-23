@@ -60,11 +60,11 @@ function NavLinks() {
                   Education And Training
                </Link>
             </li>
-            <li className={styles.li}>
+            {/* <li className={styles.li}>
                <Link href="/compensation">
                   Compensation
                </Link>
-            </li>
+            </li> */}
          </ul>
       </nav>
    )
