@@ -4,14 +4,14 @@ import styles from '../styles/Home.module.css';
 const Jobs = () => {
    return (
       <div>
-         <h2 className={styles.h2}>Jobs amd Compensation</h2>
-         <p>One of the more positive reasons to consider a career in technology are in the growing number of employment opportunities will will be in the job market for years to come. For jobs involving computer and information technology occupations, the{" "} 
+         <h2 className={styles.h2}>Jobs and Compensation</h2>
+         <p>One of the more attractive reasons to consider a career in technology is the growing number of employment opportunities will be in the job market for years to come. For jobs involving computer and information technology occupations, the{" "} 
             <a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm">
-               Bureau of Labor Statisitics
+               Bureau of Labor Statistics
             </a>{" "}
-             (or BLS) projects projects that the number of these occupations will grow 15%, or by about 682,800 jobs, between 2021 and 2031. This is much faster than the average for all other occupations.</p> 
-         <p>Another good reason to consider a career in the technology sector is compensation. As of May 2021, the annual median wage for this work sector was $97,430, which was higher than the median annual wage for all occupations of $45,760 for the United States.</p>
-         <p>Below are a list of some occupations or job titles that make up this career field. Many of these names will be used interchangably. This list is not exhaustive:</p>
+             (or BLS) projects that the number of these occupations will grow 15%, or by about 682,800 jobs, between 2021 and 2031. This is much faster than the average for all other occupations.</p> 
+         <p>Another good reason to consider a career in the technology sector is compensation. As of May 2021, the annual median wage for this work sector was $97,430, which was higher than the median annual wage for all occupations of $45,760.</p>
+         <p>Below is a list of some occupations or job titles that make up this career field. Many of these names will be used interchangeably. This list is not exhaustive:</p>
          <ul>
             <li>Research or Data Scientist</li>
             <li>Network Engineer or Architect</li>
@@ -21,7 +21,7 @@ const Jobs = () => {
             <li>Software Developer or Engineer</li>
             <li>Quality Assurance Engineer or Software Tester</li>
             <li>Web Developer</li> 
-            <li>User Expereince or Interface Designer</li>
+            <li>User Experience or Interface Designer</li>
             <li>Front End Developer or Engineer</li>
             <li>Backend Developer or Engineer</li>
             <li>Full-Stack Developer or Engineer</li>

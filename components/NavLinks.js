@@ -5,7 +5,6 @@ import Education from '../pages/education';
 import HardSkills from '../pages/hard-skills';
 import Jobs from '../pages/jobs';
 import Languages from '../pages/languages';
-import Purpose from '../pages/purpose';
 import SoftSkills from '../pages/soft-skills';
 import TypeApps from '../pages/type-apps';
 
@@ -17,17 +16,17 @@ function NavLinks() {
          <ul className={styles.ul}>
             <li className={styles.li}>
                <Link href="/">
-                  Home
+                  Information for Aspiring Technology Professionals
                </Link>
             </li>
             <li className={styles.li}>
                <Link href="/about">
-                  About Engineering
+                  What is Software Engineering?
                </Link>
             </li>
             <li className={styles.li}>
                <Link href="/type-apps">
-                  Types Of Applications
+                  What are Applications?
                </Link>
             </li>
             {/* <li className={styles.li}>
@@ -47,12 +46,12 @@ function NavLinks() {
             </li>
             <li className={styles.li}>
                <Link href="/languages">
-                  Popular Coding Languages
+                  Programming Languages
                </Link>
             </li>
             <li className={styles.li}>
                <Link href="/jobs">
-                  Job Titles
+                  Jobs and Compensation
                </Link>
             </li>
             <li className={styles.li}>
