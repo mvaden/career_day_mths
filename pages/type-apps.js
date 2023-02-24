@@ -10,7 +10,7 @@ const TypeApps = () => {
             <a href='https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API'>
                websocket 
             </a>{" "}
-               to handle two-way interactive communication (audio, video, or textual data) during a live Zoom conference call on your moble phone to regulating the schedule of automatically turning lights on and off in a building to conserve power. Applications can be small and large in size - they can contain as many as a hundred lines of code, or trillions.
+               to handle two-way interactive communication (audio, video, or textual data) during a live Zoom conference call on your mobile phone to regulating the schedule of automatically turning lights on and off in a building to conserve power. Applications can be small and large in size - they can contain as many as a hundred lines of code, or trillions.
          </p>
          <p>
             Below are a list of where applications can be found:
