@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import About from '../pages/about';
-import Compensation from '../pages/compensation';
 import Education from '../pages/education';
 import HardSkills from '../pages/hard-skills';
 import Jobs from '../pages/jobs';
