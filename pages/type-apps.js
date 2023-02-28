@@ -1,6 +1,20 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
+const apps = [
+   "Video Games",
+   "Electric Cars",
+   "Desktop/mobile apps like Microsoft Word, Spotify or Tiktok",
+   "Fraudulent detection systems inside of large financial instituations and hospitals",
+   "Search Engines",
+   "Drones",
+   "Traffic signals",
+   "Home Appliances",
+   "Aircraft Carriers and Submarines",
+   "Commercial or Industrial Aircraft",
+   `Anything that operates on a semi - conductor or "chip" will serve to operate software applications`
+];
+
 const TypeApps = () => {
    return (
       <div>
@@ -16,21 +30,13 @@ const TypeApps = () => {
             Below is a list of where applications can be found:
          </p>
          <ul>
-            <li>Video Games</li>
-            <li>Electric Cars</li>
-            <li>Desktop/mobile apps like Microsoft Word, Spotify or Tiktok</li>
-            <li>Fraudulent detection systems inside of large financial instituations and hospitals</li>
-            <li>Search Engines</li>
-            <li>Drones</li>
-            <li>Traffic signals</li>
-            <li>Home Appliances</li>
-            <li>Aircraft Carriers and Submarines</li>
-            <li>Commercial or Industrial Aircraft</li>
-            <li>Anything that operates on a{" "}
-               <a href="https://electronics.howstuffworks.com/diode.htm">
-                  semi-conductor 
-               </a>{" "}
-            or "chip" will serve to operate software applications</li>
+            {
+               apps.map(app => 
+                  <li>
+                     {app}
+                  </li>
+               )
+            }
          </ul>
       </div>
    )

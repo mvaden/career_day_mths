@@ -1,6 +1,22 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
+const titles = [
+   "Research or Data Scientist",
+   "Network Engineer or Architect",
+   "Help Desk or Support Specialist",
+   "Database Administrators or Architect",
+   "Security Engineer",
+   "Software Developer or Engineer",
+   "Quality Assurance Engineer or Software Tester",
+   "Web Developer",
+   "User Experience or Interface Designer",
+   "Front End Developer or Engineer",
+   "Backend Developer or Engineer",
+   "Full-Stack Developer or Engineer",
+   "Chief Technology Officer (CTO)",
+];
+
 const Jobs = () => {
    return (
       <div>
@@ -13,19 +29,11 @@ const Jobs = () => {
          <p>Another good reason to consider a career in the technology sector is compensation. As of May 2021, the annual median wage for this work sector was $97,430, which was higher than the median annual wage for all occupations of $45,760.</p>
          <p>Below is a list of some occupations or job titles that make up this career field. Many of these names will be used interchangeably. This list is not exhaustive:</p>
          <ul>
-            <li>Research or Data Scientist</li>
-            <li>Network Engineer or Architect</li>
-            <li>Help Desk or Support Specialist</li>
-            <li>Database Administrators or Architect</li>
-            <li>Security Engineer</li>
-            <li>Software Developer or Engineer</li>
-            <li>Quality Assurance Engineer or Software Tester</li>
-            <li>Web Developer</li> 
-            <li>User Experience or Interface Designer</li>
-            <li>Front End Developer or Engineer</li>
-            <li>Backend Developer or Engineer</li>
-            <li>Full-Stack Developer or Engineer</li>
-            <li>Chief Technology Officer (CTO)</li>
+            {
+               titles.map(title => 
+                  <li>{title}</li>
+               )
+            }
          </ul>
       </div>
    )

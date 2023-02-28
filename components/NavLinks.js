@@ -10,50 +10,54 @@ import TypeApps from '../pages/type-apps';
 
 import styles from '../styles/Home.module.css';
 
+const links = [
+   {
+      href: "/",
+      content: "Information for Aspiring Technology Professionals"
+   },
+   {
+      href: "/about",
+      content: "What is Software Engineering?"
+   },
+   {
+      href: "/type-apps",
+      content: "What are Applications?"
+   },
+   {
+      href: "/hard-skills",
+      content: "Hard Skills"
+   },
+   {
+      href: "/soft-skills",
+      content: "Soft Skills"
+   },
+   {
+      href: "/languages",
+      content: "Programming Languages"
+   },
+   {
+      href: "/jobs",
+      content: "Jobs and Compensation"
+   },
+   {
+      href: "/education",
+      content: "Education And Training"
+   },
+];
+
 function NavLinks() {
    return (
       <nav className={styles.topics}>
          <ul className={styles.ul}>
-            <li className={styles.li}>
-               <Link href="/">
-                  Information for Aspiring Technology Professionals
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/about">
-                  What is Software Engineering?
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/type-apps">
-                  What are Applications?
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/hard-skills">
-                  Hard Skills
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/soft-skills">
-                  Soft Skills
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/languages">
-                  Programming Languages
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/jobs">
-                  Jobs and Compensation
-               </Link>
-            </li>
-            <li className={styles.li}>
-               <Link href="/education">
-                  Education And Training
-               </Link>
-            </li>
+            {
+               links.map((link, index) =>
+                  <li className={styles.li}>
+                     <Link href={link.href}>
+                     {link.content}
+                     </Link>
+                  </li>
+               )
+            }
          </ul>
       </nav>
    )
