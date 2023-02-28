@@ -29,11 +29,6 @@ function NavLinks() {
                   What are Applications?
                </Link>
             </li>
-            {/* <li className={styles.li}>
-               <Link href="/purpose">
-                  Importance of Software
-               </Link>
-            </li> */}
             <li className={styles.li}>
                <Link href="/hard-skills">
                   Hard Skills
@@ -59,11 +54,6 @@ function NavLinks() {
                   Education And Training
                </Link>
             </li>
-            {/* <li className={styles.li}>
-               <Link href="/compensation">
-                  Compensation
-               </Link>
-            </li> */}
          </ul>
       </nav>
    )
